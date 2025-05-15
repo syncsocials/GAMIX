@@ -47,12 +47,12 @@ footer .tow .col-lg-6 {
     padding-right: 70px ;
 }
 
-footer .tow .col-lg-6 a{
+footer .tow .col-lg-6 a.brand-link {
     font-weight: bolder;
     letter-spacing: 5px;
     text-transform: uppercase;
     font-size: 30px;
-    color:white;
+    color: white;
     margin-bottom: 30px;
     display: block;
     text-decoration: none;
@@ -78,8 +78,13 @@ footer .tow .col-lg-6 .icons i {
     cursor: pointer;
 }
 
-footer .tow .col-lg-6 .icons i:not(:last-child) {
+footer .tow .col-lg-6 .icons a:not(:last-child) {
     margin-right: 15px;
+}
+
+footer .tow .col-lg-6 .icons a {
+    text-decoration: none;
+    color: white;
 }
 
 
